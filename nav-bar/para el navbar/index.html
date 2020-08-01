@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/estilos/style.css" />
+    <script src="/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+    </style>
+    <link rel="stylesheet" href="/estilos/normalize.css">
+</head>
+
+<body>
+<div class="toggle"></div>
+<div class="overlay"></div>
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+   $(document).ready(function(){
+  $('.toggle').click(function(){
+    $('.toggle').toggleClass('active')
+    $('.overlay').toggleClass('active')
+    $('.menu').toggleClass('active')
+  })
+})
+
+</script>
+
+
+
+
+
+
+
+   <!-- <header>
+        <h1>Inicio</h1>
+    </header>
+    <div id="contenedor-boton">
+        <button id="estilo-boton">
+        <p id="demo">Presioname Crack</p>
+      </button>
+    </div>
+    <div id="contenedor-boton-2">
+        <button id="estilo-boton2">
+        <p id="demo2">Eliminar mundo</p>
+      </button>
+    </div>
+
+    <div id="Nombre">
+        <input type="email">
+    </div>
+ -->
+
+</body>
+</html>
